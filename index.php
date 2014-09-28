@@ -43,10 +43,10 @@
 			
 			<p>Would you like to include a symbol?<br />
 			<input type="radio" name="symbols" value="1">Yes<br />
-			
+			<input type="radio" name="symbols" value="0" checked>No<br /></p>
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
-			
+			<input type="radio" name="numbers" value="0" checked>No<br /></p>
 			<input type="submit" name="submit" method="submit">
 		</form>
 		
@@ -58,8 +58,8 @@
 		<?php
 			$s = $n = 1;
 			$passwordlength = $_POST['passwordlength'];
-			if(isset($_POST['symbol'])) {$s = $_POST['symbol'];}
-			if(isset($_POST['number'])) {$n = $_POST['number'];}
+			$s = $_POST['symbol'];
+			$n = $_POST['number'];
 			if(isset($_POST['case'])) {$c = $_POST['case'];}
 			if(isset($_POST['caps'])) {$p = $_POST['caps'];}
 			$data = file('common.ini');
@@ -115,10 +115,10 @@
 			<input type="radio" name="caps" value="0" checked>No<br /></p>
 			<p>Would you like to include a symbol?<br />
 			<input type="radio" name="symbols" value="1">Yes<br />
-			
+			<input type="radio" name="symbols" value="0" checked>No<br /></p>
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
-			
+			<input type="radio" name="numbers" value="0" checked>No<br /></p>
 			<input type="submit" name="submit" method="submit">
 		</form>
 			
