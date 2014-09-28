@@ -9,28 +9,27 @@
     } 
 
 body {
-	background-image: url(../wildwest.jpg); 
+	background-image: url(../cowboy.jpg); 
 	background-size: cover;
 	padding: 20px;
-	font-family: "Pentagon"!important;
-	font-size: 20px!important;
+	font-family: "Pentagon";
+	font-size: 20px;
 	}
 
 h1 {
-	font-family: "Romantiques"!important;
-	font-size: 50px;
+	font-family: "Romantiques";
 	text-align:center;
 	}
 
 h2 {
-	font-family: "Romantiques"!important;
+	font-family: "Romantiques";
 	text-align:center;
 	}
 
 
 form {
 	text-align:center;
-	font-family: Impact, Charcoal, sans-serif;!important;
+	font-family: Impact, Charcoal, sans-serif;;
 	border-style: groove;
 	border-width:8px;
 	margin-left: 15em;
@@ -55,6 +54,16 @@ img	{
 	margin-left: auto;
 	margin-right: auto;
 	}	
+	
+.submit  {
+	font-family: "Pentagon";
+	font-size: 30px;
+	width:350px;
+    height:55px;
+    border-style: groove;
+	border-width:8px;
+	}
+	
 		
 
 		

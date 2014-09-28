@@ -5,8 +5,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>Password Slinger</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -18,7 +16,7 @@
 	of our personal information online, and some very intelligent hackers, ensuring your information
 	is protected is of the utmost importance. So, I've built the random password generator below
 	to help you come up safe, secure passwords. Just specify the number of words and whether or not
-	you would like a number, special character, or the first letter or word capitalized below and click the 
+	you would like a number, special character, or the first letter or word capitalized and click the 
 	"Give me a password" button. My fancy smanshy code will wrangle you a password based on
 	your specifications. Don't like the random password generated? Simply click the button again 
 	to lasso a new one.</p>
@@ -48,7 +46,7 @@
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
 			<input type="radio" name="numbers" value="0" checked>No<br /></p>
-			<button type="submit" name="submit" value ="submit" method="submit">Give me a password</button>
+			<button class="submit" name="submit" value ="submit" method="submit">Give me a password</button>
 		</form>
 		
 		<?php } else {
@@ -120,7 +118,7 @@
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
 			<input type="radio" name="numbers" value="0" checked>No<br /></p>
-			<input type="submit" name="submit" method="submit">
+			<button class="submit" name="submit" value ="submit" method="submit">Give me a password</button>
 		</form>
 			
 			<?php
