@@ -1,0 +1,43 @@
+
+
+body {
+	background-image: url(../wildwest.jpg); 
+	background-size: cover;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif!important;
+	padding: 20px;
+	}
+
+h1 {
+	text-align:center;
+	font-weight: strong;
+	}
+
+
+form {
+	text-align:center;
+	border-style: groove;
+	border-width:8px;
+	margin-left: 30em;
+	margin-right: 30em;
+	padding: 5px;
+	background-color: #E0E0E0; 
+	}
+			
+.password {
+	text-align:center;
+	font-size:3rem;
+	color:#0101DF;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color:#E0E0E0;
+	padding:15px;
+	font-weight:800;
+	}
+	
+img	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+		
+
+		
