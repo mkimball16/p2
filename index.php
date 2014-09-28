@@ -14,11 +14,11 @@
 		<h2>xkcd Password Generator</h2>
 
 	<p class="intro">Howdy! Welcome to my random password generator. Let's face it, coming up 
-	with a secure password is getting more and more difficult these day. But with so much
+	with a secure password is getting more and more difficult these days. But with so much
 	of our personal information online, and some very intelligent hackers, ensuring your information
-	is protected it of the utmost importance. So, I've built the random password generator below
+	is protected is of the utmost importance. So, I've built the random password generator below
 	to help you come up safe, secure passwords. Just specify the number of words and whether or not
-	you would like a number, special character, or the first word capitalized below and click the 
+	you would like a number, special character, or the first letter or word capitalized below and click the 
 	"Give me a password" button. My fancy smanshy code will wrangle you a password based on
 	your specifications. Don't like the random password generated? Simply click the button again 
 	to lasso a new one.</p>
@@ -48,7 +48,7 @@
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
 			<input type="radio" name="numbers" value="0" checked>No<br /></p>
-			<input type="submit" name="submit" method="submit">
+			<button type="submit" name="submit" value ="submit" method="submit">Give me a password</button>
 		</form>
 		
 		<?php } else {
