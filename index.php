@@ -17,7 +17,7 @@
 	is protected is of the utmost importance. So, I've built the random password generator below
 	to help you come up safe, secure passwords. Just specify the number of words and whether or not
 	you would like a number, special character, or the first letter or word capitalized and click the 
-	"Give me a password" button. My fancy smanshy code will wrangle you a password based on
+	submit button. My fancy smanshy code will wrangle you a password based on
 	your specifications. Don't like the random password generated? Simply click the button again 
 	to lasso a new one.</p>
 		
