@@ -1,13 +1,24 @@
-
+@font-face{
+    font-family: "Romantiques";
+    src: url('../fonts/Romantiques.ttf');
+    }
+    
+@font-face{
+   font-family: "Pentagon";
+    src: url('../fonts/Pentagon.ttf');
+    } 
 
 body {
 	background-image: url(../wildwest.jpg); 
 	background-size: cover;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif!important;
 	padding: 20px;
+	font-family: "Pentagon"!important;
+	font-size: 20px!important;
 	}
 
 h1 {
+	font-family: "Romantiques"!important;
+	font-size: 50px;
 	text-align:center;
 	font-weight: strong;
 	}
@@ -15,19 +26,21 @@ h1 {
 
 form {
 	text-align:center;
+	font-family: Impact, Charcoal, sans-serif;!important;
 	border-style: groove;
 	border-width:8px;
-	margin-left: 30em;
-	margin-right: 30em;
+	margin-left: 15em;
+	margin-right: 15em;
 	padding: 5px;
 	background-color: #E0E0E0; 
 	}
 			
 .password {
 	text-align:center;
-	font-size:3rem;
-	color:#0101DF;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:2em;
+	font-family: Impact, Charcoal, sans-serif;
+	border-style: groove;
+	border-width:8px;
 	background-color:#E0E0E0;
 	padding:15px;
 	font-weight:800;
