@@ -58,8 +58,8 @@
 		<?php
 			$s = $n = 1;
 			$passwordlength = $_POST['passwordlength'];
-			$s = $_POST['symbol'];
-			$n = $_POST['number'];
+			if(isset($_POST['symbols'])) {$s = $_POST['symbols'];}
+			if(isset($_POST['numbers'])) {$n = $_POST['numbers'];}
 			if(isset($_POST['case'])) {$c = $_POST['case'];}
 			if(isset($_POST['caps'])) {$p = $_POST['caps'];}
 			$data = file('common.ini');
