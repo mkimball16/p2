@@ -3,14 +3,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title>xkcd Password Generator</title>
+<title>Password Slinger</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
 </head>
 <body>
-		<h1>xkcd Password Generator</h1>
+		<h1>Password Slinger</h1>
+		<h2>xkcd Password Generator</h2>
 
 	<p class="intro">Howdy! Welcome to my random password generator. Let's face it, coming up 
 	with a secure password is getting more and more difficult these day. But with so much

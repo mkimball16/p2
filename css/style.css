@@ -20,7 +20,11 @@ h1 {
 	font-family: "Romantiques"!important;
 	font-size: 50px;
 	text-align:center;
-	font-weight: strong;
+	}
+
+h2 {
+	font-family: "Romantiques"!important;
+	text-align:center;
 	}
 
 
