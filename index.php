@@ -46,7 +46,7 @@
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
 			<input type="radio" name="numbers" value="0" checked>No<br /></p>
-			<input type="submit" class="submit" name="submit" method="submit">
+			<input type="submit" class="submit" name="submit">
 		</form>
 		
 		<?php } else {
@@ -118,7 +118,7 @@
 			<p>Would you like to include a number?<br />
 			<input type="radio" name="numbers" value="1">Yes<br />
 			<input type="radio" name="numbers" value="0" checked>No<br /></p>
-						<input type="submit" class="submit" name="submit" method="submit">
+			<input type="submit" class="submit" name="submit">
 		</form>
 			
 			<?php
@@ -126,6 +126,6 @@
 			echo "<br><br>";
 			?>
 			
-	<img id="password-gen" src="http://imgs.xkcd.com/comics/password_strength.png">		
+	<img id="password-gen" src="http://imgs.xkcd.com/comics/password_strength.png" alt="password">		
 </body>
 </html>
