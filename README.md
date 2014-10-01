@@ -10,8 +10,8 @@ how many words in the password (up to 5) and whether or not they want the
 first letter capitalized, the first word capitalized, a symbol, or a number.
 
 ## Demo information: 
-I demoed my xkcd password generator in Jeremy's 7:30-9pm virtual class on 
-Wednesday, October 1.
+I will be demoing my xkcd password generator in Jeremy's 7:30-9pm virtual class on 
+Wednesday, October 8.
 
 ## Additional info:
 I pulled the words I used in my common.ini file from a list of 4000 most 
