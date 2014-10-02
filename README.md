@@ -6,7 +6,7 @@ http://p2.mackenziek.me/
 ## Description of the project: 
 I created an xkcd password generator that allows the user to generate a
 random password based on preferences they can set. The user specifies
-how many words in the password (up to 5) and whether or not they want the 
+how many words in the password (up to 8) and whether or not they want the 
 first letter capitalized, the first word capitalized, a symbol, or a number.
 
 ## Demo information: 
