@@ -30,6 +30,9 @@
 			    	<option value="3">3</option>
 					<option value="4">4</option>
 			    	<option value="5">5</option>
+			    	<option value="6">6</option>
+					<option value="7">7</option>
+			    	<option value="8">8</option>
 			</select></p>
 			<p>Would you like to make the first letter uppercase?<br />
 			<input type="radio" name="case" value="1">Yes<br />
@@ -104,6 +107,9 @@
 			    	<option value="3" <?php echo ($_POST['passwordlength'] == '3') ? ' selected="selected"' : '';?>>3</option>
 					<option value="4" <?php echo ($_POST['passwordlength'] == '4') ? ' selected="selected"' : '';?>>4</option>
 			    	<option value="5" <?php echo ($_POST['passwordlength'] == '5') ? ' selected="selected"' : '';?>>5</option>
+			    	<option value="6" <?php echo ($_POST['passwordlength'] == '6') ? ' selected="selected"' : '';?>>6</option>
+			    	<option value="7" <?php echo ($_POST['passwordlength'] == '7') ? ' selected="selected"' : '';?>>7</option>
+			    	<option value="8" <?php echo ($_POST['passwordlength'] == '8') ? ' selected="selected"' : '';?>>8</option>
 			</select></p>
 			<p>Would you like to make the first letter uppercase?<br />
 			<input type="radio" name="case" value="1" <?php if (isset($_POST['case']) && $_POST['case'] == '1')echo 'checked="checked"';?>>Yes<br />
